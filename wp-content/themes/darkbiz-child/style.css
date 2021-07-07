@@ -1,0 +1,146 @@
+/**
+	Theme Name:		Darkbiz Child
+	Theme URI:		https://risethemes.com/product-downloads/darkbiz-child/
+	Description:	DarkBiz Child is a dark, elegant, and clean Free child theme of DarkBiz. This theme is fully responsive and compatible with popular plugins Rise Blocks, RT Easy Builder and Elementor. This theme is a best suited for any business owners to promote their business around the world through website. With the flexible features, you can customize the design as per your need without any coding. It's a page builder theme  so that you can easily import any starter sites using demo importer. You can change color and the font of each and every text, link in the theme customizer. This theme includes some readymade demos like Constructions, Medical, Corporate, Office, Creative, Organics, Charity, Photography, Consulting, eCommerce, Education etc. You can easily import and export the json block files to build inner pages. Our dedicated team will help you in setting up websites. Follow the links for instructions. Full Child Demo: https://preview.risethemes.com/sites/marketing-agency/ Parent Demo: https://preview.risethemes.com/sites/darkbiz-corporate/ For more information about Darkbiz Child please go to https://risethemes.com/
+	Author:			Rise Themes
+	Author URI: 	http://risethemes.com/
+    Template:		darkbiz
+	Version:		1.0.1
+    Tested up to:   5.7
+    Requires PHP:   5.6
+	License:		GNU General Public License v2 or later
+	License URI:	http://www.gnu.org/licenses/gpl-2.0.html
+	Tags:			left-sidebar, right-sidebar, wide-blocks, block-styles, grid-layout, two-columns, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, translation-ready, news, education, entertainment
+	Text Domain:	darkbiz-child
+*/
+
+
+/* top bar style */
+
+
+.darkbiz-top-bar-info ul {
+    margin: 0;
+    padding: 15px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.darkbiz-top-bar-info ul li {
+	margin-right: 15px;
+}
+
+.darkbiz-top-bar-info ul li i {
+	margin-right: 6px;
+}
+
+.darkbiz-top-bar-info ul li:last-child {
+	margin-right: 0;
+}
+
+.darkbiz-footer-menu-wrapper {
+    border-top: 1px solid #5c5b5b;
+}
+.darkbiz-footer-menu-wrapper ul {
+    margin: 0;
+    padding: 15px 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.darkbiz-footer-menu-wrapper ul li {
+    margin-right: 15px;
+}
+
+.darkbiz-footer-menu-wrapper ul li:last-child {
+	margin-right: 0;
+}
+.darkbiz-footer-menu-wrapper ul li a {
+    color: #fff;
+    transition: all .3s;
+}
+
+.darkbiz-dark-mode .darkbiz-main-menu div > ul > li > a {
+    color: #ffffff;
+}
+
+.darkbiz-footer-menu-wrapper ul li a:hover,
+.darkbiz-dark-mode .darkbiz-main-menu div > ul > li > a:hover {
+	color: #e6e4e4;
+}
+
+.darkbiz-post .darkbiz-comments {
+    float: left;
+}
+
+body:not(.page-template-full-width) #content {
+    padding-top: 5.5rem !important;
+}
+
+.darkbiz-dark-mode .entry-meta.single .author-info {
+    margin-left: 0;
+}
+
+.darkbiz-dark-mode .entry-meta.single .author-info a:hover {
+	color: #fff;
+}
+
+.darkbiz-dark-mode .post-navigation .nav-links > div:hover a span {
+    color: #b4b4b4 !important;
+}
+
+.post-content p a, 
+.post-content ul li a,
+.post-content ol li a,
+.post-content h1 a, .post-content h2 a,
+.post-content h3 a,.post-content h4 a, 
+.post-content h5 a,.post-content h6 a {
+    text-decoration: underline;
+}
+.elementor a {
+    text-decoration: none !important;
+}
+
+
+
+@media (max-width: 630px) {
+	.darkbiz-top-bar-info ul li {
+		flex: 0 0 100%;
+		margin: 0 0 6px 0;
+		text-align: center;
+	}
+
+	.darkbiz-top-bar-info ul li:last-child{
+		display: none;
+	}
+}
+
+@media (min-width: 560px) {
+	.darkbiz-post-per-row-1 .darkbiz-post {
+		display: flex;
+	}
+
+	.darkbiz-post-per-row-1 .darkbiz-post > a {
+		flex: 0 0 45%;
+		max-width: 45%;
+	}
+
+	.darkbiz-post-per-row-1 .darkbiz-post > a .post-image {
+	    background-size: cover;
+	    height: 100%;
+	}
+
+	.darkbiz-post-per-row-1 .darkbiz-post > a .post-image:hover {
+		background-size: cover;
+	}
+
+
+	.darkbiz-post-per-row-1 .author-image {
+	    display: none;
+	}
+}
+
